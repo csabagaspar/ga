@@ -1,0 +1,13 @@
+!backups
+backups/*
+!backups/.gitkeep
+
+!cache
+cache/*
+!cache/.gitkeep
+
+!roms
+rom/*
+!roms/lutris/**/*.yaml
+!roms/lutris/*.desktop
+!roms/lutris/*.sh
