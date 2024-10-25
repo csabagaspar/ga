@@ -1,5 +1,10 @@
 #!/bin/bash
 
-#/home/deck/.steam/steam/steamapps/common/Steam Controller Configs/71047150/config
-#/home/deck/.steam/steam/userdata/71047150/config/shortcuts.vdf
+CURRENT_ABSOLUTE_DIR=$(
+  cd "$(dirname "${BASH_SOURCE[0]}")"
+  pwd -P
+)
+source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
+cp $CURRENT_ABSOLUTE_DIR/configs/controllers/*.vdf $STEAM_CONTROLLERS_DIR/es-de
+cp $CURRENT_ABSOLUTE_DIR/configs/shortcuts.vdf $STEAM_CONFIG_DIR
