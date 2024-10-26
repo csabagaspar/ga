@@ -48,5 +48,5 @@ done
 
 
 #mame.ini
-cp $CURRENT_ABSOLUTE_DIR/configs/mame.$SYSTEM.ini $RA_SYSTEM_DIR/mame/ini
-mv $RA_SYSTEM_DIR/mame/ini/mame.$SYSTEM.ini $RA_SYSTEM_DIR/mame/ini/mame.ini
+#cp $CURRENT_ABSOLUTE_DIR/configs/mame.$SYSTEM.ini $RA_SYSTEM_DIR/mame/ini
+#mv $RA_SYSTEM_DIR/mame/ini/mame.$SYSTEM.ini $RA_SYSTEM_DIR/mame/ini/mame.ini

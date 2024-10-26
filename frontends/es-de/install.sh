@@ -16,7 +16,7 @@ mkdir -p $ES_DE_DIR/custom_systems
 cp $CURRENT_ABSOLUTE_DIR/configs/es-de.sh $APPS_DIR
 
 #AppImage
-cp $CACHE/$ES_DE_APP_NAME $APPS_DIR
+cp $CACHE/$ES_DE_APP_NAME $APPS_DIR/$ES_DE_APP_NAME
 chmod a+x $APPS_DIR/$ES_DE_APP_NAME
 
 #es_settings.xml
