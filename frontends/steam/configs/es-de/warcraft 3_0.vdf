@@ -6,7 +6,7 @@
 	"description"		"Your modified layout for this game."
 	"creator"		"76561198031312878"
 	"progenitor"		""
-	"url"		"usercloud://emulationstation de/controller_neptune"
+	"url"		"template://es-de/warcraft_3_0.vdf"
 	"export_type"		"personal_local"
 	"controller_type"		"controller_neptune"
 	"controller_caps"		"23117823"
