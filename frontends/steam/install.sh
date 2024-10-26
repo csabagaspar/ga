@@ -7,6 +7,8 @@ CURRENT_ABSOLUTE_DIR=$(
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
 #controllers
+mkdir -p $$STEAM_CONTROLLERS_DIR/es-de/Icons
+cp $CURRENT_ABSOLUTE_DIR/configs/controllers/Icons/*.* $STEAM_CONTROLLERS_DIR/es-de/Icons
 cp $CURRENT_ABSOLUTE_DIR/configs/controllers/*.vdf $STEAM_CONTROLLERS_DIR/es-de
 
 #shortcuts
