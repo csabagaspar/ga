@@ -22,6 +22,10 @@ roms/lutris/**/*.txt
 roms/lutris/**/*.appimage
 roms/lutris/**/*.AppImage
 roms/lutris/**/*.PAK
+roms/lutris/**/*.pdf
+roms/lutris/**/*.PDF
+roms/lutris/**/*.txt
+roms/lutris/**/*.mhtml
 
 roms/*.txt
 roms/3do/
